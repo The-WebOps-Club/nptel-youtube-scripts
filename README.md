@@ -18,5 +18,6 @@
 - `$ python captions.py --data=./videos.csv --files=<complete-path-to-transcripts-folder>`
   - Wait until uploads are complete
 - This will upload and publish all transcripts by automatically timing them to the speech
+- Note that YouTube will take some time to sync the text to speech, hence captions won't be immediately visible
 - Instead of transcript, srt file can also be given, in that case, timings will be taken from the srt file
   
