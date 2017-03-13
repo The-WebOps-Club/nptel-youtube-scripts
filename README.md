@@ -2,6 +2,8 @@
 
 ### Steps to upload and publish transcripts/captions
 
+- Install Python 2 
+- Install Google APIs Client Library for Python: https://developers.google.com/api-client-library/python/start/installation 
 - Open Google Cloud Console: https://console.cloud.google.com
 - Create a new project
 - Enable YouTube Data API: https://console.developers.google.com/apis/api/youtubeanalytics.googleapis.com/overview
