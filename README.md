@@ -9,9 +9,10 @@
 - Download `client_secret.json` for the credentials to the same folder
 - `$ python my_uploads.py` 
   - Google login window will open, login with correct course account
+  - All videos names and their ids under this account is fetched
   - `videos.csv` will be written to the same folder, contains names and ids for all videos in the channel
   - Edit this file and change name of video to transcript file name with extension
-- Keep all *cleaned* transcript text files in one folder 
+- Keep all **cleaned** transcript text files in one folder 
 - `$ python captions.py --data=./videos.csv --files=<complete-path-to-transcripts-folder>`
   - Wait until uploads are complete
 - This will upload and publish all transcripts by automatically timing them to the speech
